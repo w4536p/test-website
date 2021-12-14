@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<style>
+	body {
+		background-color: #222222;
+	}
+	p {
+		color: white;
+		font-family: monospace;
+	}
+	h1 {
+		color: white;
+		font-family: monospace;
+		font-size: 30px;
+	}
+	button {
+		font-family: monospace;
+	}
+	.music-border {
+		border-color: #00AA00;
+		border-width: 5px;
+		border-style: solid;
+		margin: -10px 10px 10px -5px;
+	}
+	.green-border {
+		border-color: #00AA00;
+		border-width: 10px;
+		border-style: solid;
+	}
+	#title {
+		border-color: #00AA00;
+		border-width: 10px;
+		border-style: solid;
+		margin: 0% 39% 0% 39%;
+		font-size: 15px;
+	}
+	</style>
+	<div>
+        	<center>
+				<hr><p id="title">Jerobeam Fenderson - Spirals</p>
+                	<video class="green-border" width="720" height="405" controls id="video">
+                        <source src="/test-website/videos/video3.mp4" type="video/mp4" alt="video">
+			        </video>
+	        </center> 
+		<script>
+			var audio = document.getElementById("video");
+			audio.volume = 0.5;
+		</script>
+	</div>
+</html>
