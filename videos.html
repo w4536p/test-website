@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html>
-	<link rel="stylesheet" href="style.css">
-	<bpdy>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+		<title>Videos</title>
+	</head>
+	<body>
 		<div>
 		    <center>
-				<head>
-					<meta charset="UTF-8">
-					<h1>Videos</h1>
-				</head>
+				<h1>Videos</h1>
 				<hr><p id="title">Jerobeam Fenderson - Spirals</p>
-		         	<video class="green-border" width="720" height="405" controls id="video">
-		                <source src="/test-website/videos/video3.mp4" type="video/mp4" alt="video">
-			        </video>
+		     	<video class="green-border" width="720" height="405" controls id="video">
+		            <source src="/test-website/videos/video3.mp4" type="video/mp4" alt="video">
+		        </video>
 		    </center> 
 			<script>
 				var audio = document.getElementById("video");
 				audio.volume = 0.5;
 			</script>
 		</div>
-		<div id="top-bar"></div>
-		<a href=/test-website/scripts.html id=top-button-right><button>scripts</button></a>
-		<a href=/test-website/index.html id=top-button-left><button>home</button></a>
+		<div>
+			<div id="top-bar"></div>
+			<a href=/test-website/scripts.html id=top-button-right><button>scripts</button></a>
+			<a href=/test-website/index.html id=top-button-left><button>home</button></a>
+		</div>
 	</body>
 </html>
