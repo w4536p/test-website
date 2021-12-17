@@ -37,3 +37,15 @@ button {
     border-style: solid;
     margin: -10px 10px 10px -5px;
 }
+.green-border {
+    border-color: #00AA00;
+    border-width: 10px;
+    border-style: solid;
+}
+#title {
+    border-color: #00AA00;
+    border-width: 10px;
+    border-style: solid;
+    margin: 0% 39% 0% 39%;
+    font-size: 15px;
+}
