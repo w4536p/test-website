@@ -12,16 +12,20 @@ h1 {
 }
 button {
     font-family: monospace;
+    background-color: #666666;
+    border: 2px solid #444444;
+    color: white;
+    border-radius: 6px;
 }
-#top-bar-right {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-}
-#top-bar-left {
+#top-button-right {
     position: fixed;
     top: 0px;
     left: 65px;
+}
+#top-button-left {
+    position: fixed;
+    top: 0px;
+    left: 0px;
 }
 #top-bar {
     position: fixed;
