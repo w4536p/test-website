@@ -16,11 +16,13 @@ button {
     border: 2px solid #444444;
     color: white;
     border-radius: 6px;
+    width: 70px;
+    height: 22.5px;
 }
 #top-button-right {
     position: fixed;
     top: 0px;
-    left: 70px;
+    left: 80px;
 }
 #top-button-left {
     position: fixed;
