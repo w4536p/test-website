@@ -57,5 +57,5 @@ button {
     font-size: 15px;
 }
 #script {
-    width: 100px !important;
+    width: auto !important;
 }
