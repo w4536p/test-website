@@ -59,4 +59,5 @@ button {
 #script {
     padding: 3px;
     height: fit-content;
+    width: fit-content;
 }
