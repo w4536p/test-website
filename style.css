@@ -57,5 +57,5 @@ button {
     font-size: 15px;
 }
 #script {
-    height: fit-content;
+    width: 100px !important;
 }
