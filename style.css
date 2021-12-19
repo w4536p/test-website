@@ -56,3 +56,7 @@ button {
     margin: 0% 39% 0% 39%;
     font-size: 15px;
 }
+#script {
+    padding: 3px;
+    height: fit-content;
+}
