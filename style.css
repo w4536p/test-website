@@ -38,7 +38,7 @@ button:hover {
     height: 22.5px;
     top: 0%;
     left: 0%;
-    background-image: linear-gradient(to right, #222222, #555555, #222222);
+    background-image: linear-gradient(to right, #222222, #444444, #222222);
     opacity: 0.75;
 }
 .music-border {
